@@ -38,9 +38,20 @@ class bell_sort
 			{
 				maximum_small = -9999999999999999999;
 				maximum_big = -9999999999999999999;
-				for (int j = 0; j < a_.size(); j++)
+				for (int j = 0; j < (a_.size()+1)/2; j++)
 				{
-					if (a_[j])
+					if (a_[j] > maximum_small)
+					{
+						if (a_[j] > maximum_big)
+						{
+							maximum_big
+						}
+						else
+						{
+
+
+						}
+					}
 				}
 			}
 		}
